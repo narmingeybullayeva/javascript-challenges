@@ -21,14 +21,11 @@
 function calculator(a, b, operator) {
   if (operator == "+") {
     return a + b
-  }
-  if (operator == "-") {
+  } else if (operator == "-") {
     return a - b
-  }
-  if (operator == "*") {
+  } else if (operator == "*") {
     return a * b
-  }
-  if (operator == "/") {
+  } else if (operator == "/") {
     return a / b
   } else {
     throw new Error("Invalid operator")
